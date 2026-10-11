@@ -15,7 +15,7 @@ operator = ""
 
 #数字を表示する関数
 def click(number):
-    #「エラー」と表示されていたら、最初に消す
+    #「エラー」と表示されたらリセットする
     if display.get() == "エラー":
         display.delete(0, tkinter.END)
     #小数点が2個入らないようにする
@@ -55,7 +55,6 @@ def equal():
             first_number = 0
             operator = ""
             return
-
         else:
             result = first_number / second_number
 
@@ -122,7 +121,7 @@ dot_button = tkinter.Button(
 )
 dot_button.grid(row = 4, column = 1)
 
-#クリアボタン
+#clearボタン
 clear_button = tkinter.Button(
     window,
     text = "AC",
