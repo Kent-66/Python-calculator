@@ -14,8 +14,26 @@ PythonのGUIライブラリであるTkinterを使って作成した電卓アプ�
 ・Tkinter
 
 ## 実行方法
+1.リポジトリをクローンする  
+GitHubからソースコードをダウンロードします。
+
+git clone https://github.com/Kent-66/Python-calculator.git
+
+2.プロジェクトのフォルダに移動する
+
+cd Python-calculator
+
+3.アプリを起動する  
+Python3.14がインストールされていることを確認し、以下のコマンドを実行します。
+
+calculator-app.py
 
 ## ディレクトリ構成
+Python-kakeibo-app  
+└── calculator-app.py  
+└── README.md  
+└── calculator-operation.mp4
+
 
 ## 開発目的
 Pythonの学習を目的として、実際に使えるアプリケーションの開発に取り組みました。  
