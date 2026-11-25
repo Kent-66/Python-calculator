@@ -29,7 +29,7 @@ Python3.14がインストールされていることを確認し、以下のコ�
 calculator-app.py
 
 ## ディレクトリ構成
-Python-kakeibo-app  
+Python-calculator-app  
 └── calculator-app.py  
 └── README.md  
 └── calculator-operation.mp4
